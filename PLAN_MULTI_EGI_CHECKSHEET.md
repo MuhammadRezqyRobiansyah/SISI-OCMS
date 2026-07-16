@@ -51,17 +51,6 @@ function getRefImage(itemNum) {
 
 Sumber dokumen yang benar adalah **EG MAINLINE**, bukan checksheet delivery. Bagian "Receiving Inspection" ada di halaman 1-4 dokumen tersebut.
 
-| # | Model | Status |
-|---|-------|--------|
-| 1 | **D375-6** | ✅ PDF diekstrak, 64 item |
-| 2 | **HD785-7** | ✅ PDF diekstrak |
-| 3 | **D155-6** | ✅ PDF diekstrak |
-| 4 | **WA800-3** | ✅ PDF diekstrak |
-| 5 | **GD825A-2** | ✅ PDF diekstrak |
-| 6 | **HD465-7R** | ✅ PDF diekstrak |
-| 7 | **PC1250-8** | ✅ PDF diekstrak |
-| 8 | **PC2000-8** | ✅ PDF diekstrak |
-
 *Note: CAT C32 dan CAT C15 di luar skope karena tidak pakai format EG MAINLINE standar Komatsu.*
 
 ---
