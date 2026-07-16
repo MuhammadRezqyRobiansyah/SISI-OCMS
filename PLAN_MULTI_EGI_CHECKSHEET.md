@@ -73,28 +73,28 @@ Sumber dokumen yang benar adalah **EG MAINLINE**, bukan checksheet delivery. Bag
 - [x] Step 3: Update `ChecksheetTemplate` model → tambah `egi_model` ke `$fillable`
 - [x] Step 4: Update `ComponentController::store()` → EGI-specific lookup + fallback
 - [x] Step 5: Extract PDF EG MAINLINE untuk D375-6, HD785-7, D155-6, WA800-3, GD825A-2, HD465-7R, PC1250-8, PC2000-8.
-- [ ] **Step 6: Parse extracted text / images → buat daftar items per model**
+- [x] **Step 6: Parse extracted text / images → buat daftar items per model**
   - Karena text extraction PDF berupa gambar (scanned), parse item berdasarkan visual page renders di `scratch/{model}/images/full_page_*.png`
   - Parse nomor, grup (Right Side View / Left Side View / Rear Side View / Front Side View), dan label item
   - Tentukan range nomor item per gambar referensi
-- [ ] **Step 7: Copy & organize reference images**
+- [x] **Step 7: Copy & organize reference images**
   - Dari PDF extracted images → pilih yang benar (gambar engine view, bukan logo)
   - Copy ke `public/images/inspection/{model}/` (e.g. `public/images/inspection/hd785-7/`)
-  - Format nama diseragamkan misal: `right-side-view.png`, `left-side-view.png`, `rear-side-view-1.png`, `front-side-view.png`
+  - Format nama diseragamkan misal: `right-side-view.png`, `left-side-view.png`, `rear-side-view.png`, `front-side-view.png`
   - D375-6 images sudah ada di `public/images/inspection/` → pindah ke `public/images/inspection/d375-6/`
-- [ ] **Step 8: Update seeder `ChecksheetTemplateSeeder.php`**
+- [x] **Step 8: Update seeder `ChecksheetTemplateSeeder.php`**
   - Tambah `egi_model` ke existing D375-6 entry
   - Fix groups item 21-27 D375-6: Right Side View → Rear Side View
   - Tambah entry baru untuk sisa 7 EGI
   - Setiap entry: `['major_category' => 'Engine', 'egi_model' => 'MODEL', 'stage_number' => 1, ...]`
   - Tambah metadata untuk referensi gambar per grup
-- [ ] **Step 9: Update views untuk dynamic image path per EGI**
+- [x] **Step 9: Update views untuk dynamic image path per EGI**
   - Pass logic map range item -> gambar di backend/frontend
   - Update view slide checksheet agar resolve image URL berdasarkan `egi_model` 
-- [ ] **Step 10: Run migration & seeder**
+- [x] **Step 10: Run migration & seeder**
   - `php artisan migrate`
   - `php artisan db:seed --class=ChecksheetTemplateSeeder`
-- [ ] **Step 11: Test manual**
+- [x] **Step 11: Test manual**
   - Register komponen baru EGI=HD785-7 → cek checksheet items sesuai
   - Register komponen baru EGI=D155-6 → cek checksheet items sesuai
   - Cek gambar referensi muncul di slide view sesuai model
