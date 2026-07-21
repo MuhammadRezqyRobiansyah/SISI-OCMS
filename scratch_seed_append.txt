@@ -1,0 +1,365 @@
+        // =============================================
+        // POWERTRAIN TEMPLATES
+        // =============================================
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'TC/Transmission', 'stage_number' => 1, 'egi_model' => 'HD785-7'],
+            [
+                'template_name' => 'TC/Transmission Receiving Inspection',
+                'items' => [
+                    ['id' => 'PTR-001', 'group' => 'Visual Inspection', 'label' => 'Painting condition'],
+                    ['id' => 'PTR-002', 'group' => 'Visual Inspection', 'label' => 'Nameplate information & serial number'],
+                    ['id' => 'PTR-003', 'group' => 'Visual Inspection', 'label' => 'Housing assembly (no crack/damage)'],
+                    ['id' => 'PTR-004', 'group' => 'Visual Inspection', 'label' => 'Mounting brackets & holes'],
+                    ['id' => 'PTR-005', 'group' => 'Components', 'label' => 'Input shaft spline condition'],
+                    ['id' => 'PTR-006', 'group' => 'Components', 'label' => 'Output shaft spline / flange'],
+                    ['id' => 'PTR-007', 'group' => 'Components', 'label' => 'Torque converter housing'],
+                    ['id' => 'PTR-008', 'group' => 'Components', 'label' => 'Transmission control valve assembly'],
+                    ['id' => 'PTR-009', 'group' => 'Components', 'label' => 'Oil cooler piping / ports'],
+                    ['id' => 'PTR-010', 'group' => 'Components', 'label' => 'Speed sensor / wiring harness'],
+                    ['id' => 'PTR-011', 'group' => 'Fluids & Plugs', 'label' => 'Oil level / condition'],
+                    ['id' => 'PTR-012', 'group' => 'Fluids & Plugs', 'label' => 'Magnetic drain plug'],
+                    ['id' => 'PTR-013', 'group' => 'Fluids & Plugs', 'label' => 'Breather assembly'],
+                    ['id' => 'PTR-014', 'group' => 'Fluids & Plugs', 'label' => 'Check for oil leakage'],
+                ]
+            ]
+        );
+
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'TC/Transmission', 'stage_number' => 1, 'egi_model' => 'D155-6'],
+            [
+                'template_name' => 'TC/Transmission Receiving Inspection',
+                'items' => [
+                    ['id' => 'PTR-001', 'group' => 'Visual Inspection', 'label' => 'Painting condition'],
+                    ['id' => 'PTR-002', 'group' => 'Visual Inspection', 'label' => 'Nameplate information & serial number'],
+                    ['id' => 'PTR-003', 'group' => 'Visual Inspection', 'label' => 'Housing assembly (no crack/damage)'],
+                    ['id' => 'PTR-004', 'group' => 'Visual Inspection', 'label' => 'Mounting brackets & holes'],
+                    ['id' => 'PTR-005', 'group' => 'Components', 'label' => 'Input shaft spline condition'],
+                    ['id' => 'PTR-006', 'group' => 'Components', 'label' => 'Output shaft spline / flange'],
+                    ['id' => 'PTR-007', 'group' => 'Components', 'label' => 'Torque converter housing'],
+                    ['id' => 'PTR-008', 'group' => 'Components', 'label' => 'Transmission control valve assembly'],
+                    ['id' => 'PTR-009', 'group' => 'Components', 'label' => 'Oil cooler piping / ports'],
+                    ['id' => 'PTR-010', 'group' => 'Components', 'label' => 'Speed sensor / wiring harness'],
+                    ['id' => 'PTR-011', 'group' => 'Fluids & Plugs', 'label' => 'Oil level / condition'],
+                    ['id' => 'PTR-012', 'group' => 'Fluids & Plugs', 'label' => 'Magnetic drain plug'],
+                    ['id' => 'PTR-013', 'group' => 'Fluids & Plugs', 'label' => 'Breather assembly'],
+                    ['id' => 'PTR-014', 'group' => 'Fluids & Plugs', 'label' => 'Check for oil leakage'],
+                ]
+            ]
+        );
+
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'TC/Transmission', 'stage_number' => 1, 'egi_model' => 'D375-6'],
+            [
+                'template_name' => 'TC/Transmission Receiving Inspection',
+                'items' => [
+                    ['id' => 'PTR-001', 'group' => 'Visual Inspection', 'label' => 'Painting condition'],
+                    ['id' => 'PTR-002', 'group' => 'Visual Inspection', 'label' => 'Nameplate information & serial number'],
+                    ['id' => 'PTR-003', 'group' => 'Visual Inspection', 'label' => 'Housing assembly (no crack/damage)'],
+                    ['id' => 'PTR-004', 'group' => 'Visual Inspection', 'label' => 'Mounting brackets & holes'],
+                    ['id' => 'PTR-005', 'group' => 'Components', 'label' => 'Input shaft spline condition'],
+                    ['id' => 'PTR-006', 'group' => 'Components', 'label' => 'Output shaft spline / flange'],
+                    ['id' => 'PTR-007', 'group' => 'Components', 'label' => 'Torque converter housing'],
+                    ['id' => 'PTR-008', 'group' => 'Components', 'label' => 'Transmission control valve assembly'],
+                    ['id' => 'PTR-009', 'group' => 'Components', 'label' => 'Oil cooler piping / ports'],
+                    ['id' => 'PTR-010', 'group' => 'Components', 'label' => 'Speed sensor / wiring harness'],
+                    ['id' => 'PTR-011', 'group' => 'Fluids & Plugs', 'label' => 'Oil level / condition'],
+                    ['id' => 'PTR-012', 'group' => 'Fluids & Plugs', 'label' => 'Magnetic drain plug'],
+                    ['id' => 'PTR-013', 'group' => 'Fluids & Plugs', 'label' => 'Breather assembly'],
+                    ['id' => 'PTR-014', 'group' => 'Fluids & Plugs', 'label' => 'Check for oil leakage'],
+                ]
+            ]
+        );
+
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'TC/Transmission', 'stage_number' => 1, 'egi_model' => 'GD825A-2'],
+            [
+                'template_name' => 'TC/Transmission Receiving Inspection',
+                'items' => [
+                    ['id' => 'PTR-001', 'group' => 'Visual Inspection', 'label' => 'Painting condition'],
+                    ['id' => 'PTR-002', 'group' => 'Visual Inspection', 'label' => 'Nameplate information & serial number'],
+                    ['id' => 'PTR-003', 'group' => 'Visual Inspection', 'label' => 'Housing assembly (no crack/damage)'],
+                    ['id' => 'PTR-004', 'group' => 'Visual Inspection', 'label' => 'Mounting brackets & holes'],
+                    ['id' => 'PTR-005', 'group' => 'Components', 'label' => 'Input shaft spline condition'],
+                    ['id' => 'PTR-006', 'group' => 'Components', 'label' => 'Output shaft spline / flange'],
+                    ['id' => 'PTR-007', 'group' => 'Components', 'label' => 'Torque converter housing'],
+                    ['id' => 'PTR-008', 'group' => 'Components', 'label' => 'Transmission control valve assembly'],
+                    ['id' => 'PTR-009', 'group' => 'Components', 'label' => 'Oil cooler piping / ports'],
+                    ['id' => 'PTR-010', 'group' => 'Components', 'label' => 'Speed sensor / wiring harness'],
+                    ['id' => 'PTR-011', 'group' => 'Fluids & Plugs', 'label' => 'Oil level / condition'],
+                    ['id' => 'PTR-012', 'group' => 'Fluids & Plugs', 'label' => 'Magnetic drain plug'],
+                    ['id' => 'PTR-013', 'group' => 'Fluids & Plugs', 'label' => 'Breather assembly'],
+                    ['id' => 'PTR-014', 'group' => 'Fluids & Plugs', 'label' => 'Check for oil leakage'],
+                ]
+            ]
+        );
+
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'TC/Transmission', 'stage_number' => 1, 'egi_model' => 'HD1500-7'],
+            [
+                'template_name' => 'TC/Transmission Receiving Inspection',
+                'items' => [
+                    ['id' => 'PTR-001', 'group' => 'Visual Inspection', 'label' => 'Painting condition'],
+                    ['id' => 'PTR-002', 'group' => 'Visual Inspection', 'label' => 'Nameplate information & serial number'],
+                    ['id' => 'PTR-003', 'group' => 'Visual Inspection', 'label' => 'Housing assembly (no crack/damage)'],
+                    ['id' => 'PTR-004', 'group' => 'Visual Inspection', 'label' => 'Mounting brackets & holes'],
+                    ['id' => 'PTR-005', 'group' => 'Components', 'label' => 'Input shaft spline condition'],
+                    ['id' => 'PTR-006', 'group' => 'Components', 'label' => 'Output shaft spline / flange'],
+                    ['id' => 'PTR-007', 'group' => 'Components', 'label' => 'Torque converter housing'],
+                    ['id' => 'PTR-008', 'group' => 'Components', 'label' => 'Transmission control valve assembly'],
+                    ['id' => 'PTR-009', 'group' => 'Components', 'label' => 'Oil cooler piping / ports'],
+                    ['id' => 'PTR-010', 'group' => 'Components', 'label' => 'Speed sensor / wiring harness'],
+                    ['id' => 'PTR-011', 'group' => 'Fluids & Plugs', 'label' => 'Oil level / condition'],
+                    ['id' => 'PTR-012', 'group' => 'Fluids & Plugs', 'label' => 'Magnetic drain plug'],
+                    ['id' => 'PTR-013', 'group' => 'Fluids & Plugs', 'label' => 'Breather assembly'],
+                    ['id' => 'PTR-014', 'group' => 'Fluids & Plugs', 'label' => 'Check for oil leakage'],
+                ]
+            ]
+        );
+
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'TC/Transmission', 'stage_number' => 1, 'egi_model' => 'WA800-3'],
+            [
+                'template_name' => 'TC/Transmission Receiving Inspection',
+                'items' => [
+                    ['id' => 'PTR-001', 'group' => 'Visual Inspection', 'label' => 'Painting condition'],
+                    ['id' => 'PTR-002', 'group' => 'Visual Inspection', 'label' => 'Nameplate information & serial number'],
+                    ['id' => 'PTR-003', 'group' => 'Visual Inspection', 'label' => 'Housing assembly (no crack/damage)'],
+                    ['id' => 'PTR-004', 'group' => 'Visual Inspection', 'label' => 'Mounting brackets & holes'],
+                    ['id' => 'PTR-005', 'group' => 'Components', 'label' => 'Input shaft spline condition'],
+                    ['id' => 'PTR-006', 'group' => 'Components', 'label' => 'Output shaft spline / flange'],
+                    ['id' => 'PTR-007', 'group' => 'Components', 'label' => 'Torque converter housing'],
+                    ['id' => 'PTR-008', 'group' => 'Components', 'label' => 'Transmission control valve assembly'],
+                    ['id' => 'PTR-009', 'group' => 'Components', 'label' => 'Oil cooler piping / ports'],
+                    ['id' => 'PTR-010', 'group' => 'Components', 'label' => 'Speed sensor / wiring harness'],
+                    ['id' => 'PTR-011', 'group' => 'Fluids & Plugs', 'label' => 'Oil level / condition'],
+                    ['id' => 'PTR-012', 'group' => 'Fluids & Plugs', 'label' => 'Magnetic drain plug'],
+                    ['id' => 'PTR-013', 'group' => 'Fluids & Plugs', 'label' => 'Breather assembly'],
+                    ['id' => 'PTR-014', 'group' => 'Fluids & Plugs', 'label' => 'Check for oil leakage'],
+                ]
+            ]
+        );
+
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'Final Drive', 'stage_number' => 1, 'egi_model' => 'HD785-7'],
+            [
+                'template_name' => 'Final Drive Receiving Inspection',
+                'items' => [
+                    ['id' => 'PFD-001', 'group' => 'Visual Inspection', 'label' => 'Painting condition'],
+                    ['id' => 'PFD-002', 'group' => 'Visual Inspection', 'label' => 'Nameplate information'],
+                    ['id' => 'PFD-003', 'group' => 'Housing & Covers', 'label' => 'Main housing (no crack)'],
+                    ['id' => 'PFD-004', 'group' => 'Housing & Covers', 'label' => 'Cover assembly & mounting bolts'],
+                    ['id' => 'PFD-005', 'group' => 'Housing & Covers', 'label' => 'Floating seal area / leak check'],
+                    ['id' => 'PFD-006', 'group' => 'Components', 'label' => 'Sprocket / Hub mounting surface'],
+                    ['id' => 'PFD-007', 'group' => 'Components', 'label' => 'Sun gear / input spline condition'],
+                    ['id' => 'PFD-008', 'group' => 'Fluids & Plugs', 'label' => 'Oil level / condition'],
+                    ['id' => 'PFD-009', 'group' => 'Fluids & Plugs', 'label' => 'Magnetic drain plug check for metal particles'],
+                    ['id' => 'PFD-010', 'group' => 'Fluids & Plugs', 'label' => 'Level / fill plug'],
+                ]
+            ]
+        );
+
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'Final Drive', 'stage_number' => 1, 'egi_model' => 'D155-6'],
+            [
+                'template_name' => 'Final Drive Receiving Inspection',
+                'items' => [
+                    ['id' => 'PFD-001', 'group' => 'Visual Inspection', 'label' => 'Painting condition'],
+                    ['id' => 'PFD-002', 'group' => 'Visual Inspection', 'label' => 'Nameplate information'],
+                    ['id' => 'PFD-003', 'group' => 'Housing & Covers', 'label' => 'Main housing (no crack)'],
+                    ['id' => 'PFD-004', 'group' => 'Housing & Covers', 'label' => 'Cover assembly & mounting bolts'],
+                    ['id' => 'PFD-005', 'group' => 'Housing & Covers', 'label' => 'Floating seal area / leak check'],
+                    ['id' => 'PFD-006', 'group' => 'Components', 'label' => 'Sprocket / Hub mounting surface'],
+                    ['id' => 'PFD-007', 'group' => 'Components', 'label' => 'Sun gear / input spline condition'],
+                    ['id' => 'PFD-008', 'group' => 'Fluids & Plugs', 'label' => 'Oil level / condition'],
+                    ['id' => 'PFD-009', 'group' => 'Fluids & Plugs', 'label' => 'Magnetic drain plug check for metal particles'],
+                    ['id' => 'PFD-010', 'group' => 'Fluids & Plugs', 'label' => 'Level / fill plug'],
+                ]
+            ]
+        );
+
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'Final Drive', 'stage_number' => 1, 'egi_model' => 'D375-6'],
+            [
+                'template_name' => 'Final Drive Receiving Inspection',
+                'items' => [
+                    ['id' => 'PFD-001', 'group' => 'Visual Inspection', 'label' => 'Painting condition'],
+                    ['id' => 'PFD-002', 'group' => 'Visual Inspection', 'label' => 'Nameplate information'],
+                    ['id' => 'PFD-003', 'group' => 'Housing & Covers', 'label' => 'Main housing (no crack)'],
+                    ['id' => 'PFD-004', 'group' => 'Housing & Covers', 'label' => 'Cover assembly & mounting bolts'],
+                    ['id' => 'PFD-005', 'group' => 'Housing & Covers', 'label' => 'Floating seal area / leak check'],
+                    ['id' => 'PFD-006', 'group' => 'Components', 'label' => 'Sprocket / Hub mounting surface'],
+                    ['id' => 'PFD-007', 'group' => 'Components', 'label' => 'Sun gear / input spline condition'],
+                    ['id' => 'PFD-008', 'group' => 'Fluids & Plugs', 'label' => 'Oil level / condition'],
+                    ['id' => 'PFD-009', 'group' => 'Fluids & Plugs', 'label' => 'Magnetic drain plug check for metal particles'],
+                    ['id' => 'PFD-010', 'group' => 'Fluids & Plugs', 'label' => 'Level / fill plug'],
+                ]
+            ]
+        );
+
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'Final Drive', 'stage_number' => 1, 'egi_model' => 'GD825A-2'],
+            [
+                'template_name' => 'Final Drive Receiving Inspection',
+                'items' => [
+                    ['id' => 'PFD-001', 'group' => 'Visual Inspection', 'label' => 'Painting condition'],
+                    ['id' => 'PFD-002', 'group' => 'Visual Inspection', 'label' => 'Nameplate information'],
+                    ['id' => 'PFD-003', 'group' => 'Housing & Covers', 'label' => 'Main housing (no crack)'],
+                    ['id' => 'PFD-004', 'group' => 'Housing & Covers', 'label' => 'Cover assembly & mounting bolts'],
+                    ['id' => 'PFD-005', 'group' => 'Housing & Covers', 'label' => 'Floating seal area / leak check'],
+                    ['id' => 'PFD-006', 'group' => 'Components', 'label' => 'Sprocket / Hub mounting surface'],
+                    ['id' => 'PFD-007', 'group' => 'Components', 'label' => 'Sun gear / input spline condition'],
+                    ['id' => 'PFD-008', 'group' => 'Fluids & Plugs', 'label' => 'Oil level / condition'],
+                    ['id' => 'PFD-009', 'group' => 'Fluids & Plugs', 'label' => 'Magnetic drain plug check for metal particles'],
+                    ['id' => 'PFD-010', 'group' => 'Fluids & Plugs', 'label' => 'Level / fill plug'],
+                ]
+            ]
+        );
+
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'Final Drive', 'stage_number' => 1, 'egi_model' => 'PC1250-8'],
+            [
+                'template_name' => 'Final Drive Receiving Inspection',
+                'items' => [
+                    ['id' => 'PFD-001', 'group' => 'Visual Inspection', 'label' => 'Painting condition'],
+                    ['id' => 'PFD-002', 'group' => 'Visual Inspection', 'label' => 'Nameplate information'],
+                    ['id' => 'PFD-003', 'group' => 'Housing & Covers', 'label' => 'Main housing (no crack)'],
+                    ['id' => 'PFD-004', 'group' => 'Housing & Covers', 'label' => 'Cover assembly & mounting bolts'],
+                    ['id' => 'PFD-005', 'group' => 'Housing & Covers', 'label' => 'Floating seal area / leak check'],
+                    ['id' => 'PFD-006', 'group' => 'Components', 'label' => 'Sprocket / Hub mounting surface'],
+                    ['id' => 'PFD-007', 'group' => 'Components', 'label' => 'Sun gear / input spline condition'],
+                    ['id' => 'PFD-008', 'group' => 'Fluids & Plugs', 'label' => 'Oil level / condition'],
+                    ['id' => 'PFD-009', 'group' => 'Fluids & Plugs', 'label' => 'Magnetic drain plug check for metal particles'],
+                    ['id' => 'PFD-010', 'group' => 'Fluids & Plugs', 'label' => 'Level / fill plug'],
+                ]
+            ]
+        );
+
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'Final Drive', 'stage_number' => 1, 'egi_model' => 'PC2000-8'],
+            [
+                'template_name' => 'Final Drive Receiving Inspection',
+                'items' => [
+                    ['id' => 'PFD-001', 'group' => 'Visual Inspection', 'label' => 'Painting condition'],
+                    ['id' => 'PFD-002', 'group' => 'Visual Inspection', 'label' => 'Nameplate information'],
+                    ['id' => 'PFD-003', 'group' => 'Housing & Covers', 'label' => 'Main housing (no crack)'],
+                    ['id' => 'PFD-004', 'group' => 'Housing & Covers', 'label' => 'Cover assembly & mounting bolts'],
+                    ['id' => 'PFD-005', 'group' => 'Housing & Covers', 'label' => 'Floating seal area / leak check'],
+                    ['id' => 'PFD-006', 'group' => 'Components', 'label' => 'Sprocket / Hub mounting surface'],
+                    ['id' => 'PFD-007', 'group' => 'Components', 'label' => 'Sun gear / input spline condition'],
+                    ['id' => 'PFD-008', 'group' => 'Fluids & Plugs', 'label' => 'Oil level / condition'],
+                    ['id' => 'PFD-009', 'group' => 'Fluids & Plugs', 'label' => 'Magnetic drain plug check for metal particles'],
+                    ['id' => 'PFD-010', 'group' => 'Fluids & Plugs', 'label' => 'Level / fill plug'],
+                ]
+            ]
+        );
+
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'Differential', 'stage_number' => 1, 'egi_model' => 'HD785-7'],
+            [
+                'template_name' => 'Differential Receiving Inspection',
+                'items' => [
+                    ['id' => 'PDF-001', 'group' => 'Visual Inspection', 'label' => 'Painting condition'],
+                    ['id' => 'PDF-002', 'group' => 'Visual Inspection', 'label' => 'Housing assembly (no crack/damage)'],
+                    ['id' => 'PDF-003', 'group' => 'Components', 'label' => 'Input flange condition'],
+                    ['id' => 'PDF-004', 'group' => 'Components', 'label' => 'Pinion shaft & seal'],
+                    ['id' => 'PDF-005', 'group' => 'Components', 'label' => 'Axle housing mounting surface'],
+                    ['id' => 'PDF-006', 'group' => 'Fluids & Plugs', 'label' => 'Drain plug'],
+                    ['id' => 'PDF-007', 'group' => 'Fluids & Plugs', 'label' => 'Breather'],
+                ]
+            ]
+        );
+
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'PTO', 'stage_number' => 1, 'egi_model' => 'PC1250-8'],
+            [
+                'template_name' => 'PTO Receiving Inspection',
+                'items' => [
+                    ['id' => 'PTO-001', 'group' => 'Visual Inspection', 'label' => 'Painting & Nameplate'],
+                    ['id' => 'PTO-002', 'group' => 'Visual Inspection', 'label' => 'PTO Case / Housing'],
+                    ['id' => 'PTO-003', 'group' => 'Components', 'label' => 'Pump mounting pads & splines'],
+                    ['id' => 'PTO-004', 'group' => 'Components', 'label' => 'Input shaft spline'],
+                    ['id' => 'PTO-005', 'group' => 'Components', 'label' => 'Lubrication piping'],
+                    ['id' => 'PTO-006', 'group' => 'Fluids & Plugs', 'label' => 'Oil drain plug / check metal particles'],
+                ]
+            ]
+        );
+
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'PTO', 'stage_number' => 1, 'egi_model' => 'PC2000-8'],
+            [
+                'template_name' => 'PTO Receiving Inspection',
+                'items' => [
+                    ['id' => 'PTO-001', 'group' => 'Visual Inspection', 'label' => 'Painting & Nameplate'],
+                    ['id' => 'PTO-002', 'group' => 'Visual Inspection', 'label' => 'PTO Case / Housing'],
+                    ['id' => 'PTO-003', 'group' => 'Components', 'label' => 'Pump mounting pads & splines'],
+                    ['id' => 'PTO-004', 'group' => 'Components', 'label' => 'Input shaft spline'],
+                    ['id' => 'PTO-005', 'group' => 'Components', 'label' => 'Lubrication piping'],
+                    ['id' => 'PTO-006', 'group' => 'Fluids & Plugs', 'label' => 'Oil drain plug / check metal particles'],
+                ]
+            ]
+        );
+
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'Swing Machinery', 'stage_number' => 1, 'egi_model' => 'PC1250-8'],
+            [
+                'template_name' => 'Swing Machinery Receiving Inspection',
+                'items' => [
+                    ['id' => 'SWM-001', 'group' => 'Visual Inspection', 'label' => 'Painting & Nameplate'],
+                    ['id' => 'SWM-002', 'group' => 'Visual Inspection', 'label' => 'Swing machinery housing'],
+                    ['id' => 'SWM-003', 'group' => 'Components', 'label' => 'Swing motor mounting surface'],
+                    ['id' => 'SWM-004', 'group' => 'Components', 'label' => 'Output pinion gear condition'],
+                    ['id' => 'SWM-005', 'group' => 'Components', 'label' => 'Mounting flange & bolt holes'],
+                    ['id' => 'SWM-006', 'group' => 'Fluids & Plugs', 'label' => 'Oil level gauge / dipstick'],
+                    ['id' => 'SWM-007', 'group' => 'Fluids & Plugs', 'label' => 'Drain plug'],
+                ]
+            ]
+        );
+
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'Swing Machinery', 'stage_number' => 1, 'egi_model' => 'PC2000-8'],
+            [
+                'template_name' => 'Swing Machinery Receiving Inspection',
+                'items' => [
+                    ['id' => 'SWM-001', 'group' => 'Visual Inspection', 'label' => 'Painting & Nameplate'],
+                    ['id' => 'SWM-002', 'group' => 'Visual Inspection', 'label' => 'Swing machinery housing'],
+                    ['id' => 'SWM-003', 'group' => 'Components', 'label' => 'Swing motor mounting surface'],
+                    ['id' => 'SWM-004', 'group' => 'Components', 'label' => 'Output pinion gear condition'],
+                    ['id' => 'SWM-005', 'group' => 'Components', 'label' => 'Mounting flange & bolt holes'],
+                    ['id' => 'SWM-006', 'group' => 'Fluids & Plugs', 'label' => 'Oil level gauge / dipstick'],
+                    ['id' => 'SWM-007', 'group' => 'Fluids & Plugs', 'label' => 'Drain plug'],
+                ]
+            ]
+        );
+
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'Control Valve', 'stage_number' => 1, 'egi_model' => 'PC1250-8'],
+            [
+                'template_name' => 'Control Valve Receiving Inspection',
+                'items' => [
+                    ['id' => 'CVL-001', 'group' => 'Visual Inspection', 'label' => 'Painting & Nameplate'],
+                    ['id' => 'CVL-002', 'group' => 'Visual Inspection', 'label' => 'Valve block / body (no crack/damage)'],
+                    ['id' => 'CVL-003', 'group' => 'Components', 'label' => 'Spool caps & covers'],
+                    ['id' => 'CVL-004', 'group' => 'Components', 'label' => 'Main relief valves'],
+                    ['id' => 'CVL-005', 'group' => 'Components', 'label' => 'Port reliefs / suction valves'],
+                    ['id' => 'CVL-006', 'group' => 'Components', 'label' => 'Pilot line ports & fittings'],
+                    ['id' => 'CVL-007', 'group' => 'Components', 'label' => 'Main piping ports & flanges'],
+                ]
+            ]
+        );
+
+        ChecksheetTemplate::updateOrCreate(
+            ['major_category' => 'Control Valve', 'stage_number' => 1, 'egi_model' => 'PC2000-8'],
+            [
+                'template_name' => 'Control Valve Receiving Inspection',
+                'items' => [
+                    ['id' => 'CVL-001', 'group' => 'Visual Inspection', 'label' => 'Painting & Nameplate'],
+                    ['id' => 'CVL-002', 'group' => 'Visual Inspection', 'label' => 'Valve block / body (no crack/damage)'],
+                    ['id' => 'CVL-003', 'group' => 'Components', 'label' => 'Spool caps & covers'],
+                    ['id' => 'CVL-004', 'group' => 'Components', 'label' => 'Main relief valves'],
+                    ['id' => 'CVL-005', 'group' => 'Components', 'label' => 'Port reliefs / suction valves'],
+                    ['id' => 'CVL-006', 'group' => 'Components', 'label' => 'Pilot line ports & fittings'],
+                    ['id' => 'CVL-007', 'group' => 'Components', 'label' => 'Main piping ports & flanges'],
+                ]
+            ]
+        );
+
