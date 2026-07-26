@@ -6,6 +6,51 @@
 
 ---
 
+## Update 2026-07-27 — Checksheet lokal (tanpa Google Sheets)
+
+Tampilan checksheet sekarang bisa disajikan **langsung dari database**, 1:1
+seperti Excel: lebar kolom, merge, border, warna, dan gambar ikut terbawa.
+
+Alur: file `.xlsx` diimpor sekali → layout + peta kolom keputusan disimpan di
+DB → halaman dirender dari DB → mekanik mencentang di halaman itu → jawaban
+masuk ke tabel, bukan ke spreadsheet.
+
+```bash
+php artisan checksheet:import-layouts --dry-run
+php artisan checksheet:import-layouts          # 44 layout, semua berhasil
+php tools/render_layout_preview.php            # pratinjau HTML tanpa server
+```
+
+Rute: `/checksheet-layouts` (daftar + pratinjau) dan
+`/components/{comp}/local-checksheet/{kind}` (pengisian per komponen).
+
+| Berkas | Peran |
+|--------|-------|
+| `app/Services/XlsxLayoutReader.php` | Baca .xlsx (ZipArchive bawaan PHP, tanpa library luar) |
+| `app/Services/SpreadsheetLayoutImporter.php` | Ekstrak gambar + deteksi kolom keputusan, simpan layout |
+| `app/Services/SpreadsheetHtmlRenderer.php` | Layout → tabel HTML mirip Excel |
+| `app/Http/Controllers/LocalChecksheetController.php` | Pratinjau, pengisian, simpan sel |
+| `app/Console/Commands/ImportSpreadsheetLayouts.php` | `checksheet:import-layouts` |
+| `tests/Feature/LocalChecksheetTest.php` | 7 test memakai template asli |
+
+Catatan penting:
+
+- **Pencarian keyword hanya sekali saat impor.** Setelah kolom keputusan
+  ketemu, posisinya disimpan di `decision_map`. Template tidak perlu
+  diseragamkan manual lagi — header `REUSE | SALVG | REPAIR` diterima apa
+  adanya, begitu juga sub-header `U/A|U/R|R/N` yang ada di baris terpisah.
+- **Layout dikompresi** (`App\Casts\CompressedJson`) karena
+  `database/database.sqlite` ikut di-commit: 30 MB → DB total 5,3 MB.
+- **Gambar** diekstrak ke `public/checksheet-media/` (887 file, 119 MB,
+  gitignore). Dibuat ulang dengan perintah impor.
+- **Gambar vektor EMF/WMF** (hanya di workbook Engine, 259 file) belum bisa
+  ditampilkan browser — dirender sebagai kotak penanda. Seluruh Powertrain
+  nol vektor, jadi tampil utuh.
+- Belum dikerjakan: memindahkan scan FR agar membaca `decision_map` dari DB
+  (sekarang masih lewat Google Sheets), dan input untuk kolom ukuran.
+
+---
+
 ## Update 2026-07-26 (2) — Format Excel dipulihkan
 
 **Masalah:** skrip openpyxl (`format_siap_templates.py`,
